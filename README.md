@@ -17,14 +17,14 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Sunnyside-agency](https://katarzynachmielecka.github.io/sunnyside-agency-landing-page-main/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SCSS
 - Flexbox
 - CSS Grid
 - Desktop-first workflow
@@ -35,7 +35,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 ## Author
 
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@6Kasia6](https://www.frontendmentor.io/profile/6Kasia6)
 
 
 
