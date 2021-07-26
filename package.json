@@ -1,0 +1,42 @@
+{
+  "name": "sunnyside-agency-landing-page-main",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp --development",
+    "build": "gulp build --production"
+  },
+  "browserslist": [
+    "defaults",
+    "dead",
+    "maintained node versions"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatarzynaChmielecka/sunnyside-agency-landing-page-main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatarzynaChmielecka/sunnyside-agency-landing-page-main/issues"
+  },
+  "homepage": "https://github.com/KatarzynaChmielecka/sunnyside-agency-landing-page-main#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/register": "^7.14.5",
+    "browser-sync": "^2.27.4",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-mode": "^1.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.0.1"
+  }
+}
