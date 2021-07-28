@@ -1,16 +1,16 @@
 @import 'colors';
 
-body {
-    color: $Very-dark-grayish-blue;
-}
-
+$Barlow-font: 'Barlow',
+sans-serif;
+$Fraunces-font: 'Fraunces',
+serif;
 
 
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
+}
 
-  .attribution a {
+.attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
