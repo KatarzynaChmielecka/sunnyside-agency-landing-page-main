@@ -34,7 +34,7 @@ function cleanImages(done) {
 
 // css task
 function css(done) {
-    src('src/style/main.scss')
+    src('src/sass/main.scss')
         .pipe(mode.development(sourcemaps.init()))
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer())
@@ -98,7 +98,7 @@ function watchForChanges(done) {
         }
     });
 
-    watch('src/style/**/*.scss', css);
+    watch('src/sass/**/*.scss', css);
     watch('src/**/*.js', js);
     watch('**/*.html').on('change', browserSync.reload);
     watch('src/assets/images/**/*.{png,jpg,jpeg,gif,svg}', series(cleanImages, copyImages, convertImages));
