@@ -34,7 +34,7 @@ function cleanImages(done) {
 
 // css task
 function css(done) {
-    src('src/sass/main.scss')
+    src('src/sass/index.scss')
         .pipe(mode.development(sourcemaps.init()))
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer())
