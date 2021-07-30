@@ -1,0 +1,91 @@
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    height: 800px;
+    background-image: url('../dist/assets/images/desktop/image-header.jpg');
+    background-size: cover;
+
+    .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        // place-content: center, space-between;
+        margin-top: 35px;
+        margin-right: 50px;
+        margin-left: 40px;
+
+        .header-logo {
+            width: 170px;
+            height: 25px;
+        }
+
+        .site-navigation-main {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+
+            &__item {
+
+                // padding: 25px 25px;
+
+                & a {
+                    display: flex;
+                    text-decoration: none;
+                    font-family: $Barlow-font;
+                    color: $White;
+                    font-size: 18px;
+                    margin: 0px 25px;
+                }
+
+                &:last-child a {
+                    font-size: 15px;
+                    padding: 20px 30px;
+                    border-radius: 28px;
+                    color: black;
+                    background-color: $White;
+                    text-transform: uppercase;
+                    font-family: $Fraunces-font;
+
+                    &:hover {
+                        color: $White;
+                        background-color: hsla(0, 0%, 100%, 0.4);
+                    }
+                }
+            }
+        }
+    }
+
+    .header-title-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 95px;
+
+        .header-title {
+            text-transform: uppercase;
+            font-family: $Fraunces-font;
+            font-weight: 900;
+            font-size: 61px;
+            color: $White;
+            letter-spacing: 5px;
+            word-spacing: 5px;
+            margin-bottom: 95px;
+        }
+
+        .header-scroll-down {
+            animation: scroll 1s infinite alternate;
+
+            @keyframes scroll {
+                from {
+                    transform: translateY(0);
+                }
+
+                to {
+                    transform: translateY(50px);
+                }
+            }
+        }
+    }
+}
