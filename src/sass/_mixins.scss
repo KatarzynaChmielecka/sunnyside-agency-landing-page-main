@@ -1,0 +1,16 @@
+@mixin background-image {
+    background-size: cover;
+    background-position: center;
+}
+
+@mixin link-background {
+    content: "";
+    width: calc(100% + 12px);
+    height: 10px;
+    opacity: 0.25;
+    z-index: -1;
+    border-radius: 20px;
+    position: absolute;
+    left: -6px;
+    bottom: -3px;
+}

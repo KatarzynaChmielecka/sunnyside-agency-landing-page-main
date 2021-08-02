@@ -1,17 +1,18 @@
+@import 'mixins';
+
 .header-wrapper {
     display: flex;
     flex-direction: column;
     flex-grow: 0;
     height: 800px;
     background-image: url('../dist/assets/images/desktop/image-header.jpg');
-    background-size: cover;
+    @include background-image;
 
     .nav-wrapper {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        // place-content: center, space-between;
         margin-top: 35px;
         margin-right: 50px;
         margin-left: 40px;
@@ -28,11 +29,8 @@
 
             &__item {
 
-                // padding: 25px 25px;
-
                 & a {
                     display: flex;
-                    text-decoration: none;
                     font-family: $Barlow-font;
                     color: $White;
                     font-size: 18px;
