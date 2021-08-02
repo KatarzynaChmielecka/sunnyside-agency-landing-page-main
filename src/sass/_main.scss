@@ -67,19 +67,17 @@
                     background-color: $Yellow;
                 }
 
-                &--yellow:hover::after,
-                &--pink:hover:after {
-                    opacity: 1;
-                }
-
                 &--pink::after {
                     @include link-background;
                     background-color: $Soft-red;
-
-                    &:hover {
-                        opacity: 1;
-                    }
                 }
+
+                &--yellow:hover::after,
+                &--pink:hover::after {
+                    opacity: 1;
+                }
+
+
             }
 
             .main-content-description {
