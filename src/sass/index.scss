@@ -1,4 +1,4 @@
-@import 'colorsAndFonts', 'header', 'main', 'mixins', 'testimonials', 'gallery';
+@import 'colorsAndFonts', 'header', 'main', 'mixins', 'testimonials', 'gallery', 'footer';
 
 // :root{font-size: 62.5%;}
 
@@ -16,11 +16,3 @@ body {
     }
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}

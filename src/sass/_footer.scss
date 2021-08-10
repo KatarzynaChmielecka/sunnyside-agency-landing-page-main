@@ -1,0 +1,57 @@
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $Footer-wrapper;
+    padding: 75px 0 0 0;
+
+    .footer-logo {
+        transform: scaleX(1.37) scaleY(1.46);
+        margin: 0 0 45px 0;
+    }
+
+    .site-navigation-bottom {
+        @include nav;
+        justify-content: space-between;
+        width: 295px;
+        padding: 0 0 90px 0;
+
+        &__item {
+
+            & a {
+                @include a-in-nav;
+                color: $Dark-moderate-cyan;
+              
+                &:hover {
+                    color: $White
+                }
+            }
+        }
+    }
+
+    .contact {
+        width: 165px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 70px;
+
+        a:hover {
+
+            path {
+                fill: $White;
+            }
+
+        }
+    }
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        padding: 0 0 10px 0;
+    }
+
+    .attribution a {
+        font-family: $Fraunces-font;
+        color:$atribution
+    }
+}

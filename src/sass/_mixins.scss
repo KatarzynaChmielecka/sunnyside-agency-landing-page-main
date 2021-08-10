@@ -14,3 +14,15 @@
     left: -6px;
     bottom: -3px;
 }
+
+@mixin nav {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+@mixin a-in-nav {
+    display: flex;
+    font-family: $Barlow-font;
+    font-size: 18px;
+}

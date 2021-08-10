@@ -23,17 +23,13 @@
         }
 
         .site-navigation-main {
-            list-style-type: none;
-            display: flex;
-            align-items: center;
+            @include nav;
 
             &__item {
 
                 & a {
-                    display: flex;
-                    font-family: $Barlow-font;
+                    @include a-in-nav;
                     color: $White;
-                    font-size: 18px;
                     margin: 0px 25px;
                 }
 
